@@ -1,18 +1,46 @@
-# React + Vite
+# Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: https://my-react-project-meme-generator.vercel.app/
 
-Currently, two official plugins are available:
+A simple and fun meme creator built with React and Vite. This project lets users generate random meme images, customize the top and bottom text, and preview the final result instantly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Generate a random meme image from the Imgflip meme API
+- Edit the top and bottom caption text in real time
+- Preview the final meme layout instantly
+- Clean and responsive UI for quick meme creation
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tech Stack
 
-Note: This will impact Vite dev & build performances.
+- React
+- Vite
+- JavaScript
+- Fetch API for fetching meme templates
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is deployed live at:
+
+https://my-react-project-meme-generator.vercel.app/
+
+## Project Purpose
+
+The Meme Generator app is designed to make meme creation quick and easy by combining random meme templates with editable text overlays, giving users a simple way to create shareable content.
